@@ -1,13 +1,21 @@
-const burgerMenu = document.querySelector(".burger-menu");
+const burgerMenu = document.querySelector("#check");
 const menuBurger = document.querySelector(".menu-burger");
-
+const body = document.querySelector(".body");
 burgerMenu.addEventListener("click", () => {
-  menuBurger.classList.add("transform");
+  if (burgerMenu.checked) {
+    menuBurger.classList.add("transform");
+    body.classList.add("overflow");
+  } else {
+    menuBurger.classList.remove("transform");
+    body.classList.remove("overflow");
+  }
 });
 
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".burger-menu") && !e.target.closest(".menu-burger")) {
     menuBurger.classList.remove("transform");
+    burgerMenu.checked = false;
+    body.classList.remove("overflow");
   }
 });
 
