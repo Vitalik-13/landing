@@ -656,6 +656,9 @@ input[type]:checked ~ span.middle {
     margin-right: auto;
     margin-top: 10px;
   }
+  .menu-main-title {
+    text-align: start;
+  }
   .link-button-description {
     font-size: 16px;
   }
