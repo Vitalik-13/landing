@@ -376,7 +376,7 @@ input[type]:checked ~ span.middle {
   margin-bottom: 98px;
 }
 .link-button-description {
-  padding: 24px 33px;
+  padding: 20px 28px;
   text-align: center;
   color: white;
   background-color: #ffa800;
