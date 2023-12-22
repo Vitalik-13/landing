@@ -647,6 +647,12 @@ input[type]:checked ~ span.middle {
   }
 }
 @media (max-width: 700px) {
+  .second-block {
+    text-align: start;
+  }
+  .link-button-description {
+    padding: 15px 10px;
+  }
   .img-text {
     flex-direction: row;
     align-items: flex-start;
