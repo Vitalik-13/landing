@@ -659,6 +659,12 @@ input[type]:checked ~ span.middle {
   .menu-main-title {
     text-align: start;
   }
+  .list-about-servise {
+    font-size: 14px;
+  }
+  .wrapper-about-servise-list {
+    gap: 10px 0;
+  }
   .link-button-description {
     font-size: 16px;
   }
