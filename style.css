@@ -628,7 +628,7 @@ input[type]:checked ~ span.middle {
     margin: 0px;
   }
   .second-block {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
   .img-text {
     max-width: 100%;
@@ -646,6 +646,9 @@ input[type]:checked ~ span.middle {
   }
 }
 @media (max-width: 500px) {
+  .menu {
+    margin-top: 40px;
+  }
   .menu-burger {
     width: 100%;
     top: 20%;
@@ -657,8 +660,8 @@ input[type]:checked ~ span.middle {
     text-align: start;
   }
   .wrapper-description {
-    margin-top: 40px;
-    gap: 40px 0;
+    margin-top: 10px;
+    gap: 20px 0;
   }
   .foto-span {
     left: 250px;
@@ -672,6 +675,15 @@ input[type]:checked ~ span.middle {
   .logo-image {
     width: 70%;
     object-fit: contain;
+  }
+  .img-text {
+    flex-direction: row;
+    align-self: flex-start;
+    text-align: start;
+    gap: 20px 10px;
+  }
+  .menu-main-title {
+    margin-bottom: 30px;
   }
 }
 
