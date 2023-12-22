@@ -495,7 +495,14 @@
             <form action="" class="form">
               <h3 class="form-title">Оставить заявку</h3>
               <input type="text" placeholder="Ваше имя" class="input" />
-              <input type="text" placeholder="Номер телефона" class="input" />
+              <input
+                type="text"
+                placeholder="Номер телефона"
+                class="input"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 12)"
+                maxlength="12"
+              />
+
               <button class="form-button" type="submit">Отправить</button>
             </form>
           </div>
